@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="1092.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.actions">
+   <children>
+      <Button fx:id="next" defaultButton="true" layoutX="792.0" layoutY="450.0" mnemonicParsing="false" onAction="#next" prefHeight="34.0" prefWidth="88.0" text="next" />
+      <AnchorPane layoutX="34.0" layoutY="20.0">
+         <children>
+            <AnchorPane>
+               <children>
+                  <BorderPane>
+                     <center>
+                        <TextField fx:id="t1" prefHeight="26.0" prefWidth="130.0" promptText=" add team 1" />
+                     </center>
+                  </BorderPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="t2" layoutX="34.0" layoutY="76.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 2" />
+      <TextField fx:id="t3" layoutX="34.0" layoutY="125.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 3" />
+      <TextField fx:id="t4" layoutX="34.0" layoutY="172.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 4  " />
+      <TextField fx:id="t5" layoutX="34.0" layoutY="232.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 5" />
+      <TextField fx:id="t6" layoutX="34.0" layoutY="282.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 6" />
+      <TextField fx:id="t7" layoutX="34.0" layoutY="333.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team7" />
+      <TextField fx:id="t8" layoutX="34.0" layoutY="395.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 8" />
+      <TextField fx:id="t9" layoutX="938.0" layoutY="20.0" prefHeight="26.0" prefWidth="129.0" promptText=" add team 9" />
+      <TextField fx:id="t10" layoutX="938.0" layoutY="75.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 10" />
+      <TextField fx:id="t11" layoutX="937.0" layoutY="125.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 11" />
+      <TextField fx:id="t12" layoutX="937.0" layoutY="174.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 12" />
+      <TextField fx:id="t13" layoutX="937.0" layoutY="232.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 13" />
+      <TextField fx:id="t14" layoutX="937.0" layoutY="282.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team 14" />
+      <TextField fx:id="t15" layoutX="937.0" layoutY="332.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team15" />
+      <TextField fx:id="t16" layoutX="937.0" layoutY="395.0" prefHeight="26.0" prefWidth="130.0" promptText=" add team16" />
+      <Button fx:id="add" defaultButton="true" layoutX="96.0" layoutY="450.0" mnemonicParsing="false" onAction="#copy" prefHeight="34.0" prefWidth="81.0" text="add" textAlignment="JUSTIFY" />
+      <Button fx:id="play" defaultButton="true" layoutX="385.0" layoutY="450.0" mnemonicParsing="false" onAction="#play" prefHeight="34.0" prefWidth="217.0" text="play" textAlignment="JUSTIFY" />
+      <TextField fx:id="t17" layoutX="178.0" layoutY="55.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of 1&amp;2" />
+      <TextField fx:id="t18" layoutX="178.0" layoutY="151.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of  3&amp;4" />
+      <TextField fx:id="t20" layoutX="178.0" layoutY="359.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of  7&amp;8" />
+      <TextField fx:id="t19" layoutX="178.0" layoutY="258.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of  5&amp;6" />
+      <TextField fx:id="t21" layoutX="808.0" layoutY="55.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of 9&amp;10" />
+      <TextField fx:id="t22" layoutX="808.0" layoutY="151.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of 11&amp;12" />
+      <TextField fx:id="t23" layoutX="808.0" layoutY="258.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of 13&amp;14" />
+      <TextField fx:id="t24" layoutX="808.0" layoutY="359.0" prefHeight="26.0" prefWidth="114.0" promptText="winner of 15&amp;16" />
+      <TextField fx:id="t25" layoutX="311.0" layoutY="102.0" prefHeight="26.0" prefWidth="114.0" promptText="semi finalist" />
+      <TextField fx:id="t26" layoutX="301.0" layoutY="308.0" prefHeight="26.0" prefWidth="114.0" promptText="semi finalist" />
+      <TextField fx:id="t27" layoutX="674.0" layoutY="98.0" prefHeight="26.0" prefWidth="114.0" promptText="semi finalist" />
+      <TextField fx:id="t28" layoutX="674.0" layoutY="308.0" prefHeight="26.0" prefWidth="114.0" promptText="semi finalist" />
+      <TextField fx:id="t30" layoutX="623.0" layoutY="219.0" prefHeight="26.0" prefWidth="114.0" promptText="finalist" />
+      <TextField fx:id="t29" layoutX="358.0" layoutY="219.0" prefHeight="26.0" prefWidth="114.0" promptText="finalist" />
+      <Label fx:id="winer" layoutX="479.0" layoutY="400.0">
+         <font>
+            <Font size="41.0" />
+         </font></Label>
+      <TextField fx:id="t31" layoutX="485.0" layoutY="219.0" prefHeight="25.0" prefWidth="123.0" promptText="winer" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
